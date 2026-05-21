@@ -95,21 +95,6 @@ nav ul li a:hover{
 }
 
 .efeito-escrita{
-    font-size:3rem;
-    color:var(--text-color1);
-    font-family:'Courier New', Courier monospace;
-    width:max-content;
-    margin:0 auto; /* faz ocupar o espaço inteiro */
-    overflow:hidden; /* esconde quando o texto passar */
-    white-space:nowrap; /* deixa tudo em linha */
-    border-right:2px solid #00ffff;
-
-    animation:
-        digitando 4s steps(24) infinite alternate,
-        pisca 0.8 step-end infinite;
-    text-shadow: 0 0 10px rgba(0,255,255,0.5);
-}
-.efeito-escrita{
  font-size:3rem;
  color:var(--text-color);
  font-family:'Cascadia Code';
